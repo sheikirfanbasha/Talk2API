@@ -1,5 +1,6 @@
 # Talk2API
-This project demonstrates the execution of APIs using queries typed in natural language
+This project demonstrates the execution of APIs using queries typed in natural language. This can serve as a template for creating the domain driven or goal oriented chat bots.
+🌟 Please support our GitHub repository with a star! Your star gives motivation and helps in improving this project. Thank you! 🌟
 
 ## What we did?
 In this project we are going to Talk to the [Genderize.io](https://genderize.io/), [Nationalize.io](https://nationalize.io/) and [Agify.io](https://agify.io/) APIs using plain english language. Also, convert the responses back into human readiable english language
@@ -28,6 +29,7 @@ Get the bot fully functional with the planned talk2API agent capable of using al
 ![ServiceDiagram](figures/Talk2API_Services.jpg)
 
 **Result**
+
 ![MileStone1](figures/MileStone-1.png)
 
 

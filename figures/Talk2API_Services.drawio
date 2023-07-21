@@ -1,0 +1,48 @@
+<mxfile host="Electron" modified="2023-07-21T05:52:49.208Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="GfHIYwRAaXECVazutCDk" version="21.6.1" type="device">
+  <diagram name="Page-1" id="kFTWNhUUTqRXhVj2iwUO">
+    <mxGraphModel dx="1114" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="J46tzVh3038LVkV2QzbQ-1" value="Talk2API" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="480" y="250" width="400" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="J46tzVh3038LVkV2QzbQ-6" value="Tools" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="285" width="180" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="J46tzVh3038LVkV2QzbQ-2" value="&lt;br&gt;&lt;b&gt;talk2API Agent&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="510" y="340" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="J46tzVh3038LVkV2QzbQ-3" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="J46tzVh3038LVkV2QzbQ-2">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J46tzVh3038LVkV2QzbQ-4" value="&lt;br&gt;&lt;b&gt;Agify Tool&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="695" y="310" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J46tzVh3038LVkV2QzbQ-5" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="J46tzVh3038LVkV2QzbQ-4">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J46tzVh3038LVkV2QzbQ-7" value="&lt;br&gt;&lt;b&gt;Genderize Tool&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="695" y="370" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J46tzVh3038LVkV2QzbQ-8" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="J46tzVh3038LVkV2QzbQ-7">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J46tzVh3038LVkV2QzbQ-9" value="&lt;br&gt;&lt;b&gt;Nationalise Tool&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="695" y="430" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J46tzVh3038LVkV2QzbQ-10" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="J46tzVh3038LVkV2QzbQ-9">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

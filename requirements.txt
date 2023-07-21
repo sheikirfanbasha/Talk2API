@@ -1,0 +1,5 @@
+langchain[all]
+openai
+streamlit
+streamlit-chat
+watchdog

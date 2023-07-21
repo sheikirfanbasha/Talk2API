@@ -7,16 +7,16 @@ from langchain.prompts import ChatPromptTemplate
 from .base import _JSON_TO_NLG_RESPONSE_TEMPLATE
 
 # Define the API endpoint
-API_ENDPOINT = "https://api.nationalize.io/"
+API_ENDPOINT = "https://api.genderize.io/"
 
-class NationaliseTool(BaseTool):
+class GenderizeTool(BaseTool):
     def __init__(self):
-        super().__init__(name="nationalise", description="Predicts the nationality of a person.")
+        super().__init__(name="genderize", description="Predicts the gender of a person.")
 
     def _run(self, input_text: str) -> str:
         # Extract name of person from the input text
         name = extract_name(input_text)
-        # Call the nationalise.io API with the provided name
+        # Call the genderize.io API with the provided name
         response = requests.get(API_ENDPOINT, params={"name": name})
         # Check if the API call was successful
         if response.status_code == 200:
@@ -30,9 +30,9 @@ class NationaliseTool(BaseTool):
             )
             """
             Sample json output:
-            {"count":2101006,"name":"michael","country":[{"country_id":"AT","probability":0.061},{"country_id":"DE","probability":0.056},{"country_id":"DK","probability":0.054},{"country_id":"IE","probability":0.048},{"country_id":"GH","probability":0.046}]}
+            {"count":1094417,"name":"michael","gender":"male","probability":1.0}
             Generated NLG response:
-            The name is Michael and there are a total of 2,101,006 occurrences of this name. The name is most likely associated with the following countries and their respective probabilities: Austria (0.061), Germany (0.056), Denmark (0.054), Ireland (0.048), and Ghana (0.046).
+            The name is Michael and it is a male name. The probability of it being a male name is 1.0.
             """
             return chain.run(input=data)
         else:
@@ -46,7 +46,7 @@ class NationaliseTool(BaseTool):
         raise NotImplementedError("custom_search does not support async")
 
 # Example usage
-# input_text = "What can be the nationality of  Michael?"
+# input_text = "What can be the gender of  Michael?"
 # tool = NationaliseTool()
 # result = tool.run(input_text)
 # print(result)

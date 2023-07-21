@@ -1,6 +1,6 @@
 import requests
 from langchain.tools import BaseTool
-from base import extract_name
+from .base import extract_name
 
 # Define the API endpoint
 API_ENDPOINT = "https://api.agify.io"

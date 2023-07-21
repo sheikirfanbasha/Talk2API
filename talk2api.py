@@ -1,18 +1,7 @@
 """Python file to serve as the frontend"""
 import streamlit as st
 from streamlit_chat import message
-
-from langchain.chains import ConversationChain
-from langchain.llms import OpenAI
-
-
-def load_chain():
-    """Logic for loading the chain you want to use should go here."""
-    llm = OpenAI(temperature=0)
-    chain = ConversationChain(llm=llm)
-    return chain
-
-chain = load_chain()
+from agent import talk2APIAgent
 
 # From here down is all the StreamLit UI.
 st.set_page_config(page_title="LangChain Demo", page_icon=":robot:")
@@ -33,7 +22,7 @@ def get_text():
 user_input = get_text()
 
 if user_input:
-    output = chain.run(user_input)
+    output = talk2APIAgent.run(user_input)
 
     st.session_state.past.append(user_input)
     st.session_state.generated.append(output)

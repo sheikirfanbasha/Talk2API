@@ -14,3 +14,8 @@ def extract_name(input_text: str) -> str:
     extracted_result = extraction_chain.run(input_text)
     name = extracted_result[0]["name"]
     return name
+_JSON_TO_NLG_RESPONSE_TEMPLATE = """Given the data in the json output. 
+Generate the human readable response.
+json output:
+{input}
+"""

@@ -1,3 +1,5 @@
+.DS_Store
+figures/.DS_Store
 .data/
 figures/*.drawio.bkp
 figures/*.drawio.dtmp

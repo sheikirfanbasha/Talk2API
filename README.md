@@ -1,5 +1,6 @@
 # Talk2API
 This project demonstrates the execution of APIs using queries typed in natural language. This can serve as a template for creating the domain driven or goal oriented chat bots.
+
 🌟 Please support our GitHub repository with a star! Your star gives motivation and helps in improving this project. Thank you! 🌟
 
 ## What we did?
